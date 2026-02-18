@@ -1,0 +1,160 @@
+.navbar-nav {
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #FBFBFB;
+}
+
+.navbar {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: large;
+    font-style: normal;
+    font-variation-settings:
+        "wdth"100;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    text-align: center;
+    color: #280905;
+    /* background-image: linear-gradient(to bottom, #FFFF, #FFFF, #FFFF, #FFFF, #FFFF, #280905); */
+}
+
+.container .row {
+    margin-top: 10%;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+
+}
+
+.container .text1 {
+    background: #FFFF;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: fit-content;
+    padding-bottom: 5px;
+}
+
+.hoverMe:hover {
+    border: 2px solid #C3110C;
+    transform: scale(1.03);
+    transition: transform 0.9s ease;
+}
+
+img {
+    border-radius: 10px;
+    border: 0.5px solid rgba(36, 8, 8, 0.9);
+    width: 50%;
+}
+
+.row .available-text {
+    margin-top: 5rem;
+}
+
+footer {
+
+    font-family: sans-serif;
+    margin: 2rem;
+}
+
+.projects-container {
+    margin: 2rem;
+}
+
+.wrap-img {
+    float: right;
+    margin-top: 5px;
+    margin-left: 20px;
+    /* Adds space between the image and the text */
+    margin-bottom: 10px;
+    /* Adds space below the image */
+}
+
+.wrap-img1 {
+    margin-top: 5px;
+    float: left;
+    margin-right: 20px;
+    /* Adds space between the image and the text */
+    margin-bottom: 10px;
+    /* Adds space below the image */
+}
+
+.programmingLan span {
+    border: 0.5px solid #E6501B;
+    padding: 1px;
+
+}
+
+
+
+/* RESUME BUTTON STYLING */
+.btn-resume {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #280905;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.btn-resume:hover {
+    background-color: #C3110C;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* RESPONSIVE IMAGES */
+img {
+    border-radius: 10px;
+    border: 0.5px solid rgba(36, 8, 8, 0.9);
+    max-width: 100%; /* Better than width: 50% for responsiveness */
+    height: auto;
+}
+
+/* SKILLS TAGS */
+.programmingLan span {
+    border: 1px solid #E6501B;
+    padding: 4px 12px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 5px 2px;
+    font-size: 0.9rem;
+}
+
+/* --- RESPONSIVENESS (MOBILE FRIENDLY) --- */
+@media (max-width: 768px) {
+    .container .row {
+        margin-top: 2rem; /* Reduce the 10% margin on mobile */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Smaller text for mobile */
+    }
+
+    .my-image {
+        text-align: center;
+        order: -1; /* Puts your image above the text on mobile */
+    }
+
+    .text1 {
+        margin-bottom: 20px;
+    }
+
+    .wrap-img, .wrap-img1 {
+        float: none; /* Stop text wrapping on small screens */
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+}
